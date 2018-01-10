@@ -2,6 +2,8 @@
 How to develop a SOAP client from Alfresco Repository
 =====================================================
 
+More details available at https://angelborroy.wordpress.com/2018/01/10/how-to-develop-a-soap-client-from-alfresco-repository/ 
+
 **Background**
 
 This project has been developed as a sample to build a SOAP client from Alfresco Repository. So it's not intended to be used in real environments.

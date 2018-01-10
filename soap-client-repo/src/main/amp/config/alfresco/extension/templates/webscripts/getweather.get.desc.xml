@@ -1,0 +1,7 @@
+<webscript>
+    <shortname>Get Weather Webscript</shortname>
+    <description>Get Weather for Sample Global Weather Service</description>
+    <url>/globalweather/{country}/{city}/getweather</url>
+    <authentication>user</authentication>
+    <format default="html"></format>
+</webscript>

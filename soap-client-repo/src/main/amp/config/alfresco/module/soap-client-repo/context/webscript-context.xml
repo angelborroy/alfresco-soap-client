@@ -1,0 +1,14 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<!DOCTYPE beans PUBLIC '-//SPRING//DTD BEAN//EN' 'http://www.springframework.org/dtd/spring-beans.dtd'>
+<beans>
+	<bean id="webscript.getcities.get"
+		  class="es.keensoft.webscript.ws.GetCitiesWebScript"
+		  parent="webscript">
+		  <property name="url" value="${global.weather.url}"/>
+	</bean>
+	<bean id="webscript.getweather.get"
+		  class="es.keensoft.webscript.ws.GetWeatherWebScript"
+		  parent="webscript">
+		  <property name="url" value="${global.weather.url}"/>
+	</bean>
+</beans>
